@@ -452,12 +452,12 @@
     top: 1197px;
     width: 482px;
   }
-  .do-sign-up {
+  .sign-up-card {
     width: 370px;
     height: 278px;
     position: static;
   }
-  .todo-container {
+  .sign-up-container {
     background: #ffffff;
     border-radius: 8px;
     width: 370px;
@@ -467,7 +467,7 @@
     top: 1325px;
     box-shadow: 14px 24px 72px 0px rgba(102, 102, 102, 0.1);
   }
-  .vector-4856 {
+  .sign-up-bg {
     width: 367px;
     height: 274.5px;
     position: absolute;
@@ -724,6 +724,41 @@
     top: 2049px;
     object-fit: cover;
   }
+  .card-12:hover .hover-effect {
+    width: 270px;
+    height: 290px;
+    position: static;
+  }
+  .card-12:hover .hover {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    width: 270px;
+    height: 290px;
+    position: absolute;
+    left: 375px;
+    top: 2051px;
+  }
+  .card-12:hover .book-now-btn {
+    background: var(--primary-o, #fa7436);
+    border-radius: 8px;
+    padding: 9px 18px 9px 18px;
+    width: 132px;
+    height: 50px;
+    position: absolute;
+    left: 446px;
+    top: 2243px;
+  }
+  .card-12:hover .book-now {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    position: absolute;
+    left: 22px;
+    top: 9px;
+  }
   .upper-content {
     width: 238px;
     height: 26px;
@@ -883,13 +918,13 @@
     left: 675px;
     top: 2049px;
     object-fit: cover;
-  }
-  .hover-effect {
+  } 
+  .card-22:hover .hover-effect {
     width: 270px;
     height: 290px;
     position: static;
   }
-  .hover {
+  .card-22:hover .hover {
     background: rgba(0, 0, 0, 0.4);
     border-radius: 8px;
     width: 270px;
@@ -898,7 +933,7 @@
     left: 673px;
     top: 2051px;
   }
-  .book-now-btn {
+  .card-22:hover .book-now-btn {
     background: var(--primary-o, #fa7436);
     border-radius: 8px;
     padding: 9px 18px 9px 18px;
@@ -908,7 +943,7 @@
     left: 744px;
     top: 2243px;
   }
-  .book-now {
+  .card-22:hover .book-now {
     color: #ffffff;
     text-align: left;
     font-family: "Poppins-Medium", sans-serif;
@@ -1061,6 +1096,41 @@
     top: 2049px;
     object-fit: cover;
   }
+  .card-32:hover .hover-effect {
+    width: 270px;
+    height: 290px;
+    position: static;
+  }
+  .card-32:hover .hover {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    width: 270px;
+    height: 290px;
+    position: absolute;
+    left: 975px;
+    top: 2051px;
+  }
+  .card-32:hover .book-now-btn {
+    background: var(--primary-o, #fa7436);
+    border-radius: 8px;
+    padding: 9px 18px 9px 18px;
+    width: 132px;
+    height: 50px;
+    position: absolute;
+    left: 1046px;
+    top: 2243px;
+  }
+  .card-32:hover .book-now {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    position: absolute;
+    left: 22px;
+    top: 9px;
+  }
   .content15 {
     width: 59px;
     height: 26px;
@@ -1208,6 +1278,41 @@
     top: 2049px;
     object-fit: cover;
   }
+  .card-4:hover .hover-effect {
+    width: 270px;
+    height: 290px;
+    position: static;
+  }
+  .card-4:hover .hover {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    width: 270px;
+    height: 290px;
+    position: absolute;
+    left: 1275px;
+    top: 2051px;
+  }
+  .card-4:hover .book-now-btn {
+    background: var(--primary-o, #fa7436);
+    border-radius: 8px;
+    padding: 9px 18px 9px 18px;
+    width: 132px;
+    height: 50px;
+    position: absolute;
+    left: 1346px;
+    top: 2243px;
+  }
+  .card-4:hover .book-now {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    position: absolute;
+    left: 22px;
+    top: 9px;
+  }
   .content18 {
     width: 89px;
     height: 26px;
@@ -1314,11 +1419,22 @@
     transform-origin: 0 0;
     transform: rotate(0deg) scale(1, 1);
   }
+  .slider-btn-1 {
+    width: 104px;
+    height: 40px;
+    position: absolute;
+    left: 875px;
+    top: 2523px;
+    overflow: visible;
+  }
+  .slider-btn-1:hover {
+    background-image: url("./assets/Btn-2.svg");
+  }
   .slider-btn {
     width: 104px;
     height: 40px;
     position: absolute;
-    left: 904px;
+    left: 942px;
     top: 2523px;
     overflow: visible;
   }
@@ -2505,7 +2621,7 @@
     height: 16px;
     position: absolute;
     left: 686px;
-    top: 5271px;
+    top: 5267px;
     overflow: visible;
   }
   .subscribe-btn {
